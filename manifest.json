@@ -13,5 +13,11 @@
       "run_at": "document_idle",
       "js": ["jquery-3.6.0.min.js", "main.js"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "/images/archive_16.png",
+    "32": "/images/archive_32.png",
+    "48": "/images/archive_48.png",
+    "128": "/images/archive_128.png"
+  }
 }
