@@ -1,0 +1,17 @@
+{
+  "name": "Ed Discussion Archiver",
+  "description": "Archive Ed Discussion Posts",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://edstem.org/*"],
+      "all_frames": true,
+      "run_at": "document_idle",
+      "js": ["jquery-3.6.0.min.js", "main.js"]
+    }
+  ]
+}
